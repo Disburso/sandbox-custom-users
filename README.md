@@ -1,3 +1,11 @@
+# Sandbox Custom Users (Plaid Test Data)
+
+## Sandbox Deployment (CRITICAL)
+
+**Every push to the GitHub `sandbox` branch triggers automatic deployment of the sandbox environment. Code goes live in sandbox immediately.** This applies to the main Disburso repos (`disburso-ai-core` and `disburso-ai-frontend`). This repo contains Plaid Sandbox test user JSON files used for development and testing.
+
+---
+
 # Overview
 
 This repo contains JSON files specifying custom users suitable for testing Plaid integrations on Sandbox, to test complex or custom scenarios. These files are a starting place for testing -- you can also edit these files before adding them to Sandbox, in order to further customize the test data to your needs.
