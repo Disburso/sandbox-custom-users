@@ -26,6 +26,6 @@ jobs:
 
       - name: Commit and push if there are changes
         run: |
-          git config --global user.email "4397978+ToddKerpelman@users.noreply.github.com"
-          git config --global user.name "ToddBot"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git diff --quiet || (git commit -am "Auto-update dates" && git push)
