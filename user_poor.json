@@ -11,8 +11,8 @@
             },
             "transactions": [
                 {
-                    "date_transacted": "2026-01-27",
-                    "date_posted": "2026-01-27",
+                    "date_transacted": "2026-02-20",
+                    "date_posted": "2026-02-20",
                     "amount": -1,
                     "description": "Client Trust Deposit",
                     "currency": "USD"
@@ -30,8 +30,8 @@
             },
             "transactions": [
                 {
-                    "date_transacted": "2026-01-27",
-                    "date_posted": "2026-01-27",
+                    "date_transacted": "2026-02-20",
+                    "date_posted": "2026-02-20",
                     "amount": -1,
                     "description": "Operating Funds Deposit",
                     "currency": "USD"
