@@ -5,6 +5,9 @@ on:
     - cron: "30 0 * * *" # Runs at 00:30 UTC every day.
   workflow_dispatch: # Allows you to manually run this workflow from the Actions tab
 
+permissions:
+  contents: write
+
 jobs:
   update-date:
     runs-on: ubuntu-latest
@@ -14,13 +17,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-
-      - name: Say hello
-        run: |
-          echo "Hello from the workflow branch!"
 
       - name: Run the script to update the date
         run: python update_dates.py
